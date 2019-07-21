@@ -39,7 +39,7 @@ var run = coroutine(function*() {
   console.log("start");
 
   var x = 1 + (yield getData(10));
-  var y = 1 + (yield getData(30));
+  var y = 1 + (yield getData(14));
   var ans = yield getData("ans: " + (x + y));
   console.log(ans);
 });
