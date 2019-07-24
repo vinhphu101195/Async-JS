@@ -16,7 +16,7 @@ $(document).ready(function() {
       msgs.push("Clicked!!!");
       latest = null;
     }
-  }, 1000);
+  }, 2000);
 
   clicks.val(evt => {
     latest = evt;
